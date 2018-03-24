@@ -17,7 +17,8 @@ module.exports = {
     'no-var': 'error',
     'prefer-const': 'warn',
     'eqeqeq': ['error', 'smart'],
-    'no-console': 'off'
+    'no-console': 'off',
+    'no-debugger': 'warn'
   }
 };
 
