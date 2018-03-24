@@ -11,7 +11,9 @@ module.exports = {
   rules: {
     'indent': ['error', 2],
     'semi': ['error', 'always'],
-    'semi-style': ['error', 'last']
+    'semi-style': ['error', 'last'],
+    'arrow-parens': ['error', 'always'],
+    'arrow-spacing': ['error', {before: true, after: true}]
   }
 };
 
