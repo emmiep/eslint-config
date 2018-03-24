@@ -15,7 +15,8 @@ module.exports = {
     'arrow-parens': ['error', 'always'],
     'arrow-spacing': ['error', {before: true, after: true}],
     'no-var': 'error',
-    'prefer-const': 'warn'
+    'prefer-const': 'warn',
+    'eqeqeq': ['error', 'smart']
   }
 };
 
