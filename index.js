@@ -13,7 +13,9 @@ module.exports = {
     'semi': ['error', 'always'],
     'semi-style': ['error', 'last'],
     'arrow-parens': ['error', 'always'],
-    'arrow-spacing': ['error', {before: true, after: true}]
+    'arrow-spacing': ['error', {before: true, after: true}],
+    'no-var': 'error',
+    'prefer-const': 'warn'
   }
 };
 
