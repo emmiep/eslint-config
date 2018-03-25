@@ -28,6 +28,7 @@ module.exports = {
     'no-multi-spaces': 'error',
     'no-var': 'error',
     'prefer-const': 'warn',
+    'no-param-reassign': 'error',
     'eqeqeq': ['error', 'smart'],
     'no-console': 'off',
     'no-debugger': 'warn'
