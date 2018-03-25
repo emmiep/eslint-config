@@ -32,6 +32,7 @@ module.exports = {
     'eol-last': ['error', 'always'],
     'no-var': 'error',
     'prefer-const': 'warn',
+    'object-shorthand': 'warn',
     'no-param-reassign': 'error',
     'eqeqeq': ['error', 'smart'],
     'no-console': 'off',
