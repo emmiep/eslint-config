@@ -19,6 +19,8 @@ module.exports = {
     'array-bracket-spacing': ['error', 'never'],
     'block-spacing': ['error', 'always'],
     'func-call-spacing': ['error', 'never'],
+    'comma-spacing': ['error', {before: false, after: true}],
+    'comma-style': ['error', 'last'],
     'brace-style': ['error', '1tbs', {allowSingleLine: true}],
     'curly': ['error', 'multi-line'],
     'dot-location': ['error', 'property'],
