@@ -20,6 +20,7 @@ module.exports = {
     'block-spacing': ['error', 'always'],
     'brace-style': ['error', '1tbs', {allowSingleLine: true}],
     'curly': ['error', 'multi-line'],
+    'dot-location': ['error', 'property'],
     'no-var': 'error',
     'prefer-const': 'warn',
     'eqeqeq': ['error', 'smart'],
