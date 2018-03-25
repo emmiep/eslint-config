@@ -11,7 +11,9 @@ module.exports = {
   },
   rules: {
     /* code style */
-    'brace-style': ['error', '1tbs', {allowSingleLine: true}], /* curlies on same line */
+    'brace-style': ['error', '1tbs', { /* curlies on same line */
+      allowSingleLine: true
+    }],
     'curly': ['error', 'multi-line'], /* require curlies around statements unless on same line */
     'arrow-parens': ['error', 'always'], /* always parentheses around arrow function parameters */
     'semi': ['error', 'always'], /* require semicolons */
@@ -21,7 +23,9 @@ module.exports = {
     'eqeqeq': ['error', 'smart'], /* require type-safe comparisons unless safe */
 
     /* code style: quotes */
-    'quotes': ['error', 'single', {avoidEscape: true}], /* prefer single quotes */
+    'quotes': ['error', 'single', { /* prefer single quotes */
+      avoidEscape: true
+    }],
     'jsx-quotes': ['error', 'prefer-single'], /* prefer single quotes in jsx */
 
     /* code style: spacing */
@@ -30,14 +34,32 @@ module.exports = {
     'object-curly-spacing': ['error', 'never'], /* no spacing inside object literals */
     'array-bracket-spacing': ['error', 'never'], /* no spacing inside array literals */
     'block-spacing': ['error', 'always'], /* spacing inside inline blocks */
-    'space-before-function-paren': ['error', {named: 'never', anonymous: 'always', asyncArrow: 'always'}], /* no spacing before function parentheses, unless anonymous */
+    'space-before-function-paren': ['error', { /* no spacing before function parentheses, unless anonymous */
+      named: 'never',
+      anonymous: 'always',
+      asyncArrow: 'always'
+    }],
     'func-call-spacing': ['error', 'never'], /* no spacing inside function call */
-    'comma-spacing': ['error', {before: false, after: true}], /* only spacing after commas */
-    'keyword-spacing': ['error', {before: true, after: true}], /* spacing around keywords */
-    'key-spacing': ['error', {beforeColon: false, afterColon: true}], /* only spacing after commas after object keys */
+    'comma-spacing': ['error', { /* only spacing after commas */
+      before: false,
+      after: true
+    }],
+    'keyword-spacing': ['error', { /* spacing around keywords */
+      before: true,
+      after: true
+    }],
+    'key-spacing': ['error', { /* only spacing after commas after object keys */
+      beforeColon: false,
+      afterColon: true
+    }],
     'space-in-parens': ['error', 'never'], /* no spacing inside parentheses */
-    'semi-spacing': ['error', {before: false, after: true}], /* only spacing after semicolons */
-    'arrow-spacing': ['error', {before: true, after: true}], /* spacing around arrow */
+    'semi-spacing': ['error', { /* only spacing after semicolons */
+      before: false, after: true
+    }],
+    'arrow-spacing': ['error', { /* spacing around arrow */
+      before: true,
+      after: true
+    }],
     'eol-last': ['error', 'always'], /* always newline at end of files */
 
     /* variables */
