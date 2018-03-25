@@ -29,6 +29,7 @@ module.exports = {
     'dot-location': ['error', 'property'],
     'quotes': ['error', 'single', {avoidEscape: true}],
     'no-multi-spaces': 'error',
+    'eol-last': ['error', 'always'],
     'no-var': 'error',
     'prefer-const': 'warn',
     'no-param-reassign': 'error',
