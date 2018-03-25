@@ -2,6 +2,7 @@
   "name": "@emmiep/eslint-config",
   "version": "0.0.0",
   "main": "index.js",
+  "description": "My personal eslint configuration",
   "author": "Emmie Päivärinta <Emmie.Paivarinta@gmail.com>",
   "license": "MIT",
   "repository": "github:emmiep/eslint-config",
