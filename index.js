@@ -18,6 +18,8 @@ module.exports = {
     'object-curly-spacing': ['error', 'never'],
     'array-bracket-spacing': ['error', 'never'],
     'block-spacing': ['error', 'always'],
+    'brace-style': ['error', '1tbs', {allowSingleLine: true}],
+    'curly': ['error', 'multi-line'],
     'no-var': 'error',
     'prefer-const': 'warn',
     'eqeqeq': ['error', 'smart'],
