@@ -12,6 +12,7 @@ module.exports = {
     'indent': ['error', 2],
     'semi': ['error', 'always'],
     'semi-style': ['error', 'last'],
+    'semi-spacing': ['error', {before: false, after: true}],
     'arrow-parens': ['error', 'always'],
     'arrow-spacing': ['error', {before: true, after: true}],
     'no-var': 'error',
