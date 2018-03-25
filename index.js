@@ -29,6 +29,7 @@ module.exports = {
     'curly': ['error', 'multi-line'],
     'dot-location': ['error', 'property'],
     'quotes': ['error', 'single', {avoidEscape: true}],
+    'jsx-quotes': ['error', 'prefer-single'],
     'no-multi-spaces': 'error',
     'eol-last': ['error', 'always'],
     'no-var': 'error',
@@ -37,7 +38,7 @@ module.exports = {
     'no-param-reassign': 'error',
     'eqeqeq': ['error', 'smart'],
     'no-console': 'off',
-    'no-debugger': 'warn'
+    'no-debugger': 'warn',
   }
 };
 
