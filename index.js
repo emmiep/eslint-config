@@ -30,6 +30,7 @@ module.exports = {
     'object-curly-spacing': ['error', 'never'], /* no spacing inside object literals */
     'array-bracket-spacing': ['error', 'never'], /* no spacing inside array literals */
     'block-spacing': ['error', 'always'], /* spacing inside inline blocks */
+    'space-before-function-paren': ['error', {named: 'never', anonymous: 'always', asyncArrow: 'always'}], /* no spacing before function parentheses, unless anonymous */
     'func-call-spacing': ['error', 'never'], /* no spacing inside function call */
     'comma-spacing': ['error', {before: false, after: true}], /* only spacing after commas */
     'keyword-spacing': ['error', {before: true, after: true}], /* spacing around keywords */
