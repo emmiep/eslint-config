@@ -20,6 +20,7 @@ module.exports = {
     'block-spacing': ['error', 'always'],
     'func-call-spacing': ['error', 'never'],
     'comma-spacing': ['error', {before: false, after: true}],
+    'space-in-parens': ['error', 'never'],
     'comma-style': ['error', 'last'],
     'brace-style': ['error', '1tbs', {allowSingleLine: true}],
     'curly': ['error', 'multi-line'],
