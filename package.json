@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "Emmie Päivärinta <Emmie.Paivarinta@gmail.com>",
   "license": "MIT",
+  "repository": "github:emmiep/eslint-config",
   "keywords": [
     "eslint",
     "eslintconfig"
