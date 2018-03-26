@@ -8,7 +8,8 @@ module.exports = {
     'react/self-closing-comp': ['warn', { /* prefer self-closing tags */
       component: true,
       html: true
-    }]
+    }],
+    'react/jsx-pascal-case': 'warn' /* prefer PascalCase react component names */
   }
 };
 
