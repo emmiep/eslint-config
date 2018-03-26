@@ -9,6 +9,12 @@ module.exports = {
       component: true,
       html: true
     }],
+    'react/jsx-tag-spacing': ['error', { /* require spacing only before slash of self-closing tags */
+      closingSlash: 'never',
+      beforeSelfClosing: 'always',
+      afterOpening: 'never',
+      beforeClosing: 'never'
+    }],
     'react/jsx-pascal-case': 'warn' /* prefer PascalCase react component names */
   }
 };
