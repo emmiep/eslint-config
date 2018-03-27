@@ -15,6 +15,9 @@ module.exports = {
       afterOpening: 'never',
       beforeClosing: 'never'
     }],
+    'react/jsx-curly-spacing': ['error', { /* disallow spacing inside curly jsx attributes */
+      when: 'never'
+    }],
     'react/jsx-pascal-case': 'warn' /* prefer PascalCase react component names */
   }
 };
