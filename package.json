@@ -8,7 +8,9 @@
   "repository": "github:emmiep/eslint-config",
   "keywords": [
     "eslint",
-    "eslintconfig"
+    "eslintconfig",
+    "react",
+    "jsx"
   ],
   "scripts": {
     "lint": "eslint $npm_package_main"
