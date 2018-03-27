@@ -1,6 +1,6 @@
 {
   "name": "@emmiep/eslint-config",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "index.js",
   "description": "My personal eslint configuration",
   "author": "Emmie Päivärinta <Emmie.Paivarinta@gmail.com>",
@@ -8,7 +8,9 @@
   "repository": "github:emmiep/eslint-config",
   "keywords": [
     "eslint",
-    "eslintconfig"
+    "eslintconfig",
+    "react",
+    "jsx"
   ],
   "scripts": {
     "lint": "eslint $npm_package_main"
@@ -18,5 +20,8 @@
   },
   "devDependencies": {
     "eslint": "^4.19.1"
+  },
+  "optionalDependencies": {
+    "eslint-plugin-react": ">=7"
   }
 }
