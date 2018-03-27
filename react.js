@@ -18,6 +18,7 @@ module.exports = {
     'react/jsx-curly-spacing': ['error', { /* disallow spacing inside curly jsx attributes */
       when: 'never'
     }],
+    'react/jsx-equals-spacing': ['error', 'never'], /* disallow spacing around the equals sign for jsx attributes */
     'react/jsx-pascal-case': 'warn' /* prefer PascalCase react component names */
   }
 };
