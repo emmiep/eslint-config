@@ -29,7 +29,9 @@ module.exports = {
     'jsx-quotes': ['error', 'prefer-single'], /* prefer single quotes in jsx */
 
     /* code style: spacing */
-    'indent': ['error', 2], /* 2 spaces indentation */
+    'indent': ['error', 2, { /* 2 spaces indentation */
+      SwitchCase: 1 /* additional indentation before and after switch cases */
+    }],
     'no-multi-spaces': 'error', /* no multiple spaces */
     'object-curly-spacing': ['error', 'never'], /* no spacing inside object literals */
     'array-bracket-spacing': ['error', 'never'], /* no spacing inside array literals */
