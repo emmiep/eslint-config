@@ -24,9 +24,9 @@ Then extend the configuration from your `.eslintrc`:
 }
 ```
 
-## React support
+## React/Preact support
 
-Full React support requires the optional peer dependency [`eslint-react-plugin`][eslint-react-plugin] to be installed as well:
+Full React/Preact support requires the optional peer dependency [`eslint-react-plugin`][eslint-react-plugin] to be installed as well:
 
 ```sh
 yarn add -D eslint eslint-react-plugin @emmiep/eslint-config
@@ -45,6 +45,15 @@ Your configuration has to extend the `react` configuration instead of the defaul
   "extends": "@emmiep/eslint-config/react"
 }
 ```
+
+For Preact support extend the `preact` configuration:
+
+```json
+{
+  "extends": "@emmiep/eslint-config/preact"
+}
+```
+
 
 [eslint-react-plugin]: https://github.com/yannickcr/eslint-plugin-react
 
