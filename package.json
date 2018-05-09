@@ -10,6 +10,7 @@
     "eslint",
     "eslintconfig",
     "react",
+    "preact",
     "jsx"
   ],
   "scripts": {
