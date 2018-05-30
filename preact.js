@@ -6,6 +6,9 @@ module.exports = {
     react: {
       pragma: 'h'
     }
+  },
+  rules: {
+    'react/prop-types': 'off' /* no PropType checking */
   }
 };
 

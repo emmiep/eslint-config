@@ -26,16 +26,16 @@ Then extend the configuration from your `.eslintrc`:
 
 ## React/Preact support
 
-Full React/Preact support requires the optional peer dependency [`eslint-react-plugin`][eslint-react-plugin] to be installed as well:
+Full React/Preact support requires the optional peer dependency [`eslint-plugin-react`][eslint-plugin-react] to be installed as well:
 
 ```sh
-yarn add -D eslint eslint-react-plugin @emmiep/eslint-config
+yarn add -D eslint eslint-plugin-react @emmiep/eslint-config
 ```
 
 Or by using `npm`:
 
 ```sh
-npm install -D eslint eslint-react-plugin @emmiep/eslint-config
+npm install -D eslint eslint-plugin-react @emmiep/eslint-config
 ```
 
 Your configuration has to extend the `react` configuration instead of the default configuration:
@@ -55,5 +55,5 @@ For Preact support extend the `preact` configuration:
 ```
 
 
-[eslint-react-plugin]: https://github.com/yannickcr/eslint-plugin-react
+[eslint-plugin-react]: https://github.com/yannickcr/eslint-plugin-react
 
