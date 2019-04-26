@@ -1,6 +1,6 @@
 {
   "name": "@emmiep/eslint-config",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "main": "index.js",
   "description": "My personal eslint configuration",
   "author": "Emmie Päivärinta <Emmie.Paivarinta@gmail.com>",
