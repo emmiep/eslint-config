@@ -21,6 +21,7 @@ module.exports = {
     'comma-style': ['error', 'last'], /* commas on end of lines */
     'dot-location': ['error', 'property'], /* dots at start of lines when chaining calls */
     'eqeqeq': ['error', 'smart'], /* require type-safe comparisons unless safe */
+    'require-await': 'error', /* require await in async functions */
 
     /* code style: quotes */
     'quotes': ['error', 'single', { /* prefer single quotes */
